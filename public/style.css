@@ -1,0 +1,49 @@
+body {
+  background-color: #111;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  font-size: 1.2em;
+  margin: 10px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:nth-child(1) {
+  background-color: #1e90ff; /* Messi = blue */
+}
+
+button:nth-child(2) {
+  background-color: #dc143c; /* Cristiano = red */
+}
+
+.results {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
